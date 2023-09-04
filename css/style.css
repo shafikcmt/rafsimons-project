@@ -1,0 +1,40 @@
+.imge-gallery{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.imge-gallery:hover{color: #8785855b;}
+.image-box-section {
+    background: #000;
+    height: 100vh;
+    background-image: linear-gradient(rgb(10 10 10 / 77%), rgb(0 0 0 / 74%)), url(../images/photo-1619086303291-0ef7699e4b31.jpg);
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    position: relative;
+    cursor: pointer;
+}
+
+.heading-text {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+   
+}
+.menu-text {
+    position: absolute;
+    top: 87%;
+    left: 47%;
+}
+.menu-text > h1{
+    font-size:50px;
+    text-align: center;
+    color: #fff;
+}
+
+.heading-text>h1 {
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+}
